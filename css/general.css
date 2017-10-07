@@ -4,7 +4,7 @@
   line-height: 1.42;
 }
 .header {
-  background: #282828;
+  background: #052730;
   height: 100px;
 }
 .header__text{
@@ -39,33 +39,30 @@
     padding-top: 10px;
 }
 .main{
-  float: left;
   width: 100%;
 
 }
 .page-image {
-    width: 100%;
-    height: 320px;
-    position: relative;
-    
+  width: 100%;
+  position: relative; 
 }
 .page-text {
-  margin: auto;
-  width: 1000px;
+display: flex;
+justify-content: flex-start;
 }
 .product__list {
   list-style: none;
   padding: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 .description {
-  background: #282828;
-  width: 1035px;
-  position: relative;
+  background: #052730;
   border-radius: 3px;
-  margin: auto;
 }
 .rods {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 .rods__img{
   width: 250px;
@@ -103,7 +100,8 @@
   color: #ffffff;
 }
 .lure {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 .lure__img {
   width: 250px;
@@ -124,7 +122,8 @@
   display: block;
 }
 .tackle {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 .tackle__img {
   width: 250px;
@@ -145,7 +144,8 @@
   display: block;
 }
 .equipment {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 }
 .equipment__img {
   width: 250px;
@@ -166,12 +166,11 @@
   display: block;
 }
 .navigation {
-  width: 1035px;
   margin: auto;
 }
 .navigation__mape{
-  width: 58%;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 .navigation__text {
   text-align: center;
