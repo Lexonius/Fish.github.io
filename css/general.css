@@ -40,26 +40,30 @@
 }
 .main{
   width: 100%;
-
 }
 .page-image {
-  width: 100%;
-  position: relative; 
+  width: 90%;
+  margin: 0;
 }
 .page-text {
 display: flex;
 justify-content: flex-start;
 }
-.product__list {
+.sidebar {
+  margin: 0;
+  width: 10%;
+  float: left;
+
+}
+.nav-menu {
   list-style: none;
-  padding: 10px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
 }
-.description {
-  background: #052730;
-  border-radius: 3px;
-}
+
 .rods {
   display: flex;
   flex-direction: column;
@@ -69,7 +73,7 @@ justify-content: flex-start;
   height: 150px;
   border-radius: 3px;
 }
-.rods_dropdown {
+.rods__dropdown {
   display: none;
   z-index: 1000;
   background: #ffffff;
@@ -107,7 +111,7 @@ justify-content: flex-start;
   width: 250px;
   height: 150px;
 }
-.lure_dropdown {
+.lure__dropdown {
   display: none;
   z-index: 1000;
   background: #ffffff;
@@ -129,7 +133,7 @@ justify-content: flex-start;
   width: 250px;
   height: 150px;
 }
-.tackle_dropdown {
+.tackle__dropdown {
   display: none;
   z-index: 1000;
   background: #ffffff;
@@ -151,7 +155,7 @@ justify-content: flex-start;
   width: 250px;
   height: 150px;
 }
-.equipment_dropdown {
+.equipment__dropdown {
   display: none;
   z-index: 1000;
   background: #ffffff;
