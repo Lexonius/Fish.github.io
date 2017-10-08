@@ -53,17 +53,12 @@ justify-content: flex-start;
   margin: 0;
   width: 10%;
   float: left;
-
 }
 .nav-menu {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   margin: 0;
   padding: 0;
 }
-
 .rods {
   display: flex;
   flex-direction: column;
