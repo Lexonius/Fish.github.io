@@ -4,8 +4,10 @@
   line-height: 1.42;
 }
 .header {
-  background: #052730;
-  height: 100px;
+  background: url("../images/ravi-pinisetti-69440 1.jpg");
+  height: 350px;
+  background-size: cover;
+  display: flex;
 }
 .header__text{
   color: #FFFFFF;
@@ -21,7 +23,6 @@
 }
 .container {
   width: 100%;
-  height: 100px;
   display: flex;
 }
 .name-company {
@@ -57,18 +58,16 @@ justify-content: flex-start;
 .description {
   background-color: #052730;
   width: 100%;
-  height: 70%;
-  
+  height: 50%;
 }
 
 .rods {
   
 }
 .rods__img{
-  width: 90%;
-  height:70%;
+  width: 80%;
+  height:80%;
   border-radius: 3px;
-  margin-left: 7%;
 }
 .rods__dropdown {
   display: none;
@@ -97,7 +96,7 @@ justify-content: flex-start;
   padding-left: 70px;
 }
 .product__text{
-  text-align: center;
+  margin-left: 30%;
   color: #ffffff;
 }
 .product__list{
@@ -105,6 +104,7 @@ justify-content: flex-start;
   display:flex;
   justify-content: space-around;
   padding: 0;
+  padding-left: 5%;
 }
 .description__image {
   margin-top: 20px;
@@ -113,8 +113,8 @@ justify-content: flex-start;
   
 }
 .lure__img {
-  width: 90%;
-  height:70%;
+  width: 80%;
+  height:80%;
   border-radius: 3px;
 }
 .lure__dropdown {
@@ -135,8 +135,8 @@ justify-content: flex-start;
 
 }
 .tackle__img {
-  width: 90%;
-  height:70%;
+  width: 80%;
+  height:80%;
   border-radius: 3px;
 }
 .tackle__dropdown {
@@ -157,8 +157,8 @@ justify-content: flex-start;
 
 }
 .equipment__img {
-  width: 90%;
-  height:70%;
+  width: 80%;
+  height:80%;
   border-radius: 3px;
 }
 .equipment__dropdown {
@@ -193,3 +193,5 @@ margin-bottom: 20px;
   background: #052730;
   height: 77px;
 }
+@media only screen and (min-width : 320px) and (max-width : 480px){.product__list{flex-direction: column;justify-content: center;margin-left: 45px;}};
+@media only screen and (min-width : 320px) and (max-width : 480px){.header{justify-content: center}};
