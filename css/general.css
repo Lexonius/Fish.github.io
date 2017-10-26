@@ -4,9 +4,8 @@
   line-height: 1.42;
 }
 .header {
-  background: url("../images/ravi-pinisetti-69440 1.jpg");
-  background-size: cover;
-  height: 350px;
+  background-color : #052730;
+  
 }
 .header__text{
   color: #FFFFFF;
@@ -48,8 +47,9 @@
   width: 100%;
 }
 .page-text {
-display: flex;
-justify-content: flex-start;
+  display: flex;
+  margin-left: 15%;
+
 }
 .wrapper-description {
   width: 100%;
@@ -59,10 +59,6 @@ justify-content: flex-start;
   width: 100%;
   height: 50%;
 }
-
-.rods {
-
-}
 .rods__img{
   width: 80%;
   height:80%;
@@ -70,7 +66,7 @@ justify-content: flex-start;
 }
 .rods__dropdown {
   display: flex;
-  justify-content: flex-start;
+ margin-left: 4%;
   width: 80%;
   visibility: hidden;
   z-index: 1000;
@@ -80,7 +76,7 @@ justify-content: flex-start;
   border: 1px solid black;
 }
 .dropdown__text {
-  
+  padding-left: 5%;
 }
 .rods:hover .rods__dropdown {
   visibility: visible;
@@ -88,13 +84,12 @@ justify-content: flex-start;
 .rods__photo-first{
   width: 30%;
   height: 20%;
-  
+  margin-left: 0.01%;
 }
 .rods__photo-second {
   width: 30%;
   height: 20%;
   margin-left: 2%;
-  
 }
 .product__text{
   margin-left: 30%;
@@ -111,30 +106,28 @@ justify-content: flex-start;
 .description__image {
   margin-top: 20px;
 }
-.lure {
-  
-}
 .lure__img {
   width: 80%;
   height:80%;
   border-radius: 3px;
 }
 .lure__dropdown {
-  display: none;
+  display: flex;
+  margin-left:-10%;
+  width: 60%;
+  visibility: hidden;
   z-index: 1000;
   background: #ffffff;
   position: absolute;
-  margin-top: 30px;
   border-radius: 3px;
   border: 1px solid black;
-  width: 1035px;
-  right: 0px;
 }
-.lure:hover .lure_dropdown {
-  
+.lure__photo-first {
+  width: 40%;
+  height: 30%;
 }
-.tackle {
-
+.lure:hover .lure__dropdown {
+  visibility: visible;
 }
 .tackle__img {
   width: 80%;
@@ -142,21 +135,27 @@ justify-content: flex-start;
   border-radius: 3px;
 }
 .tackle__dropdown {
-  display: none;
+  display: flex;
+  margin-left: -43%;
+  width: 80%;
+  visibility: hidden;
   z-index: 1000;
   background: #ffffff;
   position: absolute;
-  margin-top: 30px;
   border-radius: 3px;
   border: 1px solid black;
-  width: 1035px;
-  right: 0px;
 }
-.tackle:hover .tackle_dropdown {
-  display: block;
+.tackle__photo-first{
+  width: 30%;
+  height: 20%;
 }
-.equipment {
-
+.tackle__photo-second {
+  width: 30%;
+  height: 20%;
+  margin-left: 2%;
+}
+.tackle:hover .tackle__dropdown {
+  visibility: visible;
 }
 .equipment__img {
   width: 80%;
@@ -164,18 +163,27 @@ justify-content: flex-start;
   border-radius: 3px;
 }
 .equipment__dropdown {
-  display: none;
+  display: flex;
+  margin-left: -67%;
+  width: 80%;
+  visibility: hidden;
   z-index: 1000;
   background: #ffffff;
   position: absolute;
-  margin-top: 30px;
   border-radius: 3px;
   border: 1px solid black;
-  width: 1035px;
-  right: 0px;
 }
-.equipment:hover .equipment_dropdown {
-  display: block;
+.equipment__photo-first{
+  width: 30%;
+  height: 20%;
+}
+.equipment__photo-second {
+  width: 30%;
+  height: 20%;
+  margin-left: 2%;
+}
+.equipment:hover .equipment__dropdown {
+  visibility: visible;
 }
 .navigation {
   margin: auto;
@@ -191,9 +199,4 @@ justify-content: flex-start;
 margin:auto;
 margin-bottom: 20px;
 }
-.footer {
-  background: #052730;
-  height: 77px;
-}
 @media only screen and (min-width : 320px) and (max-width : 480px){.product__list{flex-direction: column;justify-content: center;margin-left: 45px;}};
-
